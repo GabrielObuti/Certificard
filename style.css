@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Play:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+body{
+background-image: url("https://www.homestratosphere.com/wp-content/uploads/2014/12/p832_innocean-office-frankfurt_13_RH23501_press.jpg");
+ background-size:cover;
+  background-repeat:;
+  background-color: #000000;
+}
+
+.container{
+  background-color:#ECF4FF;
+  margin:60px;
+  border-radius:20px;
+  box-shadow: 3px 3px 3px #0E1D2F;
+  padding:60px;
+  opacity: 0.95;
+}
+
+.tudoDoPerfil{
+  display:flex;
+  justify-content:space-between;
+}
+
+.perfil{
+  display:flex;
+}
+
+.foto{
+  border-radius: 460px;
+  max-height:165px;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition:0.5s;
+}
+
+.foto:hover{
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(1.1);
+  transition:0.350s;
+}
+
+.cabeca{
+  margin-left:16px;
+}
+
+.cabeca h4{
+  color:#444545;
+  text-shadow:2px 2px 2px #a3a3a3;
+}
+
+#nome{
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Play', sans-serif;
+  font-weight:700;
+  font-size:36px;
+  text-shadow: 2px 2px 1px #6c757d;
+}
+
+#bio{
+  text-shadow: 1px 1px 1px #6c757d;
+}
+
+.tema button{
+  align-self:flex-end;
+  font-size:15px;
+  padding:8px 16px;
+  background:#ECF4FF;
+  border-radius:20px;
+}
+
+.projetos{
+background-color: #cccccc;
+  border-radius:15px;
+  margin:25px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border-style:solid;
+  border-color:#003cff;
+  padding:25px;
+}
+
+.projetos hr{
+  border-width:1px;
+  border-block-start-color:#919394;
+  border-block-end-color:#42a4eb;
+  
+}
+
+.projetos li{
+  margin: 20px;
+  list-style-type:none;
+}
+
+.projetos a{
+	color: #1a12ff;
+	text-decoration:none;
+  text-shadow:1px 1px 3px;
+
+}
+
+.projetos a:hover{
+  opacity:0.9;
+  color:#21a6ff;
+}
+
+
+.titulo2{
+  font-family: 'Fugaz One', cursive;
+  font-size:25px;
+  text-shadow: 2px 2px 2px #6c757d;
+}
+
+.midias{
+align-items:column;
+ margin:20px;
+  display: inline-flex;
+  
+
+}
+
+.facebook{
+  border-radius:20px;
+  max-width:65px;
+  padding-left:5px;
+  padding-right:5px;
+  transition:0.3s;
+}
+
+.facebook:hover{
+-webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+ transform: rotateZ(-10deg);
+  transition:0.3s;
+}
+
+
+.twitter{
+  border-radius:20px;
+  max-width:65px;
+  padding-right:5px;
+  padding-left:5px;
+  transition:0.3s;
+}
+
+.twitter:hover{
+-webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+ transform: rotateZ(-10deg);
+  transition:0.3s;
+}
+
+.instagram{
+  border-radius:20px;
+  max-width:65px;
+   padding-right:5px;
+  padding-left:5px;
+  transition:0.3s;
+}
+
+.instagram:hover{
+-webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+ transform: rotateZ(-10deg);
+  transition:0.3s;
+}
+
+.github{
+  border-radius:20px;
+  max-width:65px;
+  padding-right:5px;
+  padding-left:5px;
+  transition:0.3s;
+}
+
+.github:hover{
+-webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+ transform: rotateZ(-10deg);
+  transition:0.3s;
+}
+
+.dark{
+  background-image:url("https://media.architecturaldigest.com/photos/57504396f77873823f7d163e/master/w_3200,h_2533,c_limit/black-and-white-07.jpg")
+}
+
+.dark .container{
+background:#333439;
+  color:#ECF4FF;
+}
+
+.dark .titulo2{
+  color:black;
+}
+
+.dark .cabeca h4{
+  color:#ECF4FF;
+}
+
+.dark .tema button{
+  background:#1C1C1C;
+  color:#ECF4FF;
+  border: 2px solid #ECF4FF;
+}
+
+.dark .foto{
+  box-shadow:0px 1px 3px white;
+}
+
+.dark .agradecimento2{
+  color:#ECF4FF;
+  text-shadow:2px 2px 2px #4d4d4d;
+}
+
+.dark .frase{
+  text-shadow:2px 2px 2px #4d4d4d;
+}
+
+.tudo{
+  display:flex;
+  justify-content:space-between;
+}
+
+.umBloco {
+ background-color:#cccccc;
+ justify-content:flex-end;
+ border-style:solid;
+ border-color:#003cff;
+ border-radius:20px;
+ padding:2px 2px 2px;
+ margin:2px 20px 2px;
+}
+
+
+.listaAgradecimento{
+ display: flex;
+  gap: 32px;
+  margin-right: 32px;
+ 
+}
+
+.frase{
+  text-align: center;
+  text-shadow: 2px 2px 2px #6c757d;
+}
+
+.agradecimento2{
+  display:flex;
+  flex-direction:column;
+  margin:15px;
+  text-shadow: 2px 2px 2px #6c757d;
+}
+
+.icone{
+  border-radius:40px;
+  max-width:80px;
+  border-style:solid;
+  border-color:black;
+  transition:0.350s;
+}
+
+.icone:hover{
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(1.1);
+  border-color:#003cff;
+  transition:0.350s;
+}
